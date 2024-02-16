@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+
+{%block content%}
+    
+    <div style="position: relative;"></div>
+
+        <img src="../media/gymfuncional.jpg"  class="img" alt="">
+        <link rel="stylesheet" href="../media/css/tipografia.css">
+
+
+
+        <div style="position: absolute; top: 75%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white;">
+            <img src="../media/logo.png" alt="Tu Logo" style="width: 100px; height: auto; margin-top: 20px;">
+
+        <div style="text-align: center;">
+                <style>
+                 h1 { color: hsl(0, 0%, 99%); }
+                 </style>
+
+            {% if mensaje_error %}
+                {% if mensaje_error != 'None' %}
+                 <div class="alert alert-danger" role="alert">
+                      {{ mensaje_error }}
+                    </div>
+                 {% endif %}
+            {% endif %}
+
+            {% if usuario %}
+                <h2>{{ usuario.nombre }} 
+                    {{ usuario.apellido }} </h2>
+                {% if ultima_fecha %}
+                    <h2>Tu ultima cuota abonada fue: {{ ultima_fecha|date:"d-m-Y" }} </h2>
+                {% else %}
+                    <h2>No hay cuotas pagadas para este usuario.<h2>
+                {% endif %}
+            {% endif %}
+            <br>
+
+            <form action="/">
+                <button type="submit">💪 INICIO 💪</button>
+            </form>
+        
+        </div>
+    </div>
+{%endblock%}
+

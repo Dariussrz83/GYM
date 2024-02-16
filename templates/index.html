@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+    <div style="position: relative;">
+        
+
+        <img src="../media/gymsalon.jpg"  class="img" alt="">
+
+        <link rel="stylesheet" href="../media/css/tipografia.css">
+
+        
+    
+
+        <div style="position: absolute; top: 75%; left: 15%; transform: translate(-50%, -50%); text-align: center; color: white;">
+            <img src="../media/logo.png" alt="Tu Logo" style="width: 100px; height: auto; margin-top: 20px;">
+            <h1>Buscar Usuario por DNI</h1>
+             <form method="post" action="registro/">
+                {% csrf_token %}
+                <input type="search" id="dni" name="dni" required>
+                <input type="submit" value="Buscar">
+             </form>
+
+            {% if mensaje_error %}
+                 
+                <div class="alert alert-danger" role="alert">
+                    {{ mensaje_error }}
+                </div>
+     
+            {% endif %}
+
+            {% if usuario %}
+                <p>Nombre: {{ usuario.nombre }}</p>
+                <p>Apellido: {{ usuario.apellido }}</p>
+
+                {% if ultima_fecha %}
+                    <p>Última Cuota Pagada: {{ ultima_fecha }}</p>
+                {% else %}
+                    <p>No hay cuotas pagadas para este usuario.</p>
+                {% endif %}
+            {% endif %}
+        </div>
+    </div>
+        
+    
+
+{% endblock %}
+
