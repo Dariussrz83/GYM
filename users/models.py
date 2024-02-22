@@ -44,3 +44,4 @@ class Cuota(models.Model):
     al_dia = models.BooleanField(default=False)
     metodo = models.CharField(max_length=2, choices=PAGO_CHOICES, blank=True, null=True)
     
+

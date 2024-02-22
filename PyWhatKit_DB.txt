@@ -1,0 +1,75 @@
+Date: 16/2/2024
+Time: 23:5
+Phone Number: +5491161475851
+Message: Hola, este es un mensaje de prueba desde Django usando pywhatkit.
+--------------------
+Date: 17/2/2024
+Time: 16:48
+Phone Number: +5491161475851
+Message: Hola buen dia
+--------------------
+Date: 17/2/2024
+Time: 17:30
+Phone Number: +5491122561639
+Message: Hola buen dia
+--------------------
+Date: 17/2/2024
+Time: 17:42
+Phone Number: +5491122561639
+Message: Hola buen dia
+--------------------
+Date: 17/2/2024
+Time: 18:27
+Phone Number: +5491122561639
+Message: Hola, este es un mensaje de prueba desde Django usando pywhatkit.
+--------------------
+Date: 17/2/2024
+Time: 18:31
+Phone Number: +5491122513665
+Message: Hola, este es un mensaje de prueba desde Django usando pywhatkit.
+--------------------
+Date: 17/2/2024
+Time: 18:44
+Phone Number: +5491122513665
+Message: Hola, este es un mensaje de prueba desde Django usando pywhatkit.
+--------------------
+Date: 17/2/2024
+Time: 18:46
+Phone Number: +5491122513665
+Message: Hola, este es un mensaje de prueba desde Django usando pywhatkit.
+--------------------
+Date: 17/2/2024
+Time: 18:50
+Phone Number: +5491122513665
+Message: Hola, este es un mensaje de prueba desde Django usando pywhatkit.
+--------------------
+Date: 17/2/2024
+Time: 18:57
+Phone Number: +5491122513665
+Message: Hola, este es un mensaje de prueba desde Django usando pywhatkit.
+--------------------
+Date: 17/2/2024
+Time: 19:0
+Phone Number: +5491122513665
+Message: Hola, este es un mensaje de prueba desde Django usando pywhatkit.
+--------------------
+Date: 17/2/2024
+Time: 19:11
+Phone Number: +5491122513665
+Message: Hola, este es un mensaje de prueba desde Django usando pywhatkit.
+--------------------
+Date: 17/2/2024
+Time: 19:17
+Phone Number: +5491122513665
+Message: Hola, este es un mensaje de prueba desde Django usando pywhatkit.
+--------------------
+Date: 17/2/2024
+Time: 19:25
+Phone Number: +5491122513665
+Message: Hola, este es un mensaje de prueba desde Django usando pywhatkit.
+--------------------
+Date: 17/2/2024
+Time: 19:52
+Phone Number: +5491122513665
+Message: Hola, este es un mensaje de prueba desde Django usando pywhatkit.
+--------------------
