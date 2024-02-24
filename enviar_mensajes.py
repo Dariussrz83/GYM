@@ -10,7 +10,7 @@ for i in range(len(data)):
     celular = data.loc[i,'celular'].astype(str)
     nombre = data.loc[i,'nombre']
 
-    mensaje = "Hola " + nombre + ", este es un mensaje enviado a traves de la Web de Talar Gym, queremos avisarte que este sabado 24 de Febrero el gimnasio permanecera cerrado 💪"
+    mensaje = "Hola " + nombre + ", este es un mensaje enviado a traves de la Web de Talar Gym, queremos avisarte que este sabado 24 de Febrero el gimnasio abrira de 10 a 13hs. Te esperamos!! 💪"
 
     firefox_path = "C:/Program Files/Mozilla Firefox/firefox.exe %s"
     web.get(firefox_path).open("https://web.whatsapp.com/send?phone=" + celular + "&text=" + mensaje)
