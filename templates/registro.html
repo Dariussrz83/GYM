@@ -5,12 +5,12 @@
     
     <div style="position: relative;"></div>
 
-        <img src="../media/gymfuncional.jpg"  class="img" alt="">
+        <img src="../media/gymsalon.jpg"  class="img" alt="">
         <link rel="stylesheet" href="../media/css/tipografia.css">
 
 
 
-        <div style="position: absolute; top: 75%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white;">
+        <div style="position: absolute; top: 75%; left: 20%; transform: translate(-50%, -50%); text-align: center; color: white;">
             <img src="../media/logo.png" alt="Tu Logo" style="width: 100px; height: auto; margin-top: 20px;">
 
         <div style="text-align: center;">
@@ -30,9 +30,9 @@
                 <h2>{{ usuario.nombre }} 
                     {{ usuario.apellido }} </h2>
                 {% if ultima_fecha %}
-                    <h2>Tu ultima cuota abonada fue: {{ ultima_fecha|date:"d-m-Y" }} </h2>
+                    <h3>Tu ultima cuota abonada fue: {{ ultima_fecha|date:"d-m-Y" }} </h3>
                 {% else %}
-                    <h2>No hay cuotas pagadas para este usuario.<h2>
+                    <h3>No hay cuotas pagadas para este usuario.<h3>
                 {% endif %}
             {% endif %}
             <br>
